@@ -1,0 +1,30 @@
+/* police lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* police Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    background-color: #782221;
+    border: solid 2px #2c1d27;
+}
+header {
+    text-align: center;
+    border-radius: 50%;
+}
+
+#container {
+    background-color:#2c1d27;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+
+.titre_principaux{
+    background-color: #dbc2a4;
+}
