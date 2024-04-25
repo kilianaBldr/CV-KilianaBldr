@@ -6,6 +6,8 @@
 body {
     background-color: #782221;
     border: solid 2px #2c1d27;
+    max-width: 1160px;
+    margin: auto;
 }
 header {
     text-align: center;
@@ -23,13 +25,26 @@ header {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
      
 }
 
 .principal{
     background-color: white;
+    width: 100%;
 }
 .titre_principaux{
     background-color: #dbc2a4;
+}
+
+footer>img {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+}
+footer > p  {
+    text-align: center;
 }
