@@ -12,10 +12,13 @@ header {
     border-radius: 50%;
 }
 
+
 #container {
     background-color:#2c1d27;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+   
+    
 }
 
 main {
@@ -24,7 +27,9 @@ main {
      
 }
 
-
+.principal{
+    background-color: white;
+}
 .titre_principaux{
     background-color: #dbc2a4;
 }
