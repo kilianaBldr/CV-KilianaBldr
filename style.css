@@ -7,58 +7,88 @@ body {
     background-color: #782221;
     border: solid 2px #2c1d27;
     width: 1160px;
+    margin: auto;
 }
 header {
     text-align: center;
     color: white;
 }
-a {
-    text-align: center;
-    color: white;
-    text-decoration-line: none;
-}
-#Profil {
-    border-radius: 50%;
+.Profil {
     margin-top: 20px;
     justify-content: center;
     text-align: center;
     
 }
-#Image-profil {
-   
+.Profil__image {
     border-radius: 50%;
 }
-#container {
+
+.Profil__image:hover {
+    cursor: zoom-in;
+}
+.Profil__image:active{
+    background-image: image-set();
+}
+
+a {
+    text-align: center;
     color: white;
+    text-decoration-line: none;
+}
+a:hover {
+    border-bottom: 2px solid white;
+}
+#NavBar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+    justify-content: space-around;
     background-color:#2c1d27;
     height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    
 }
-#propos {
-    color: white;
-    padding: 20px;
-}
+
 main {
     display: flex;
-    justify-content: space-between;
+    width: 1160px;
+    justify-content: flex-start;
     margin: auto;
-     
 }
-.principal{
-    background-color:white;
-    color: black;
-    width: 100%;
-    padding-left: 20px;
+
+.Propos {
+    padding-right: 20px;
+    text-align: justify;
 }
-.titre_principaux{
+.Propos__text {
+    padding-right: 20px;
+    text-indent: 25px;
+}
+h3 {
     background-color: #dbc2a4;
     margin-right: 10px;
     padding-left: 20px;
 }
 p {
     padding-left: 20px;
+    text-align: justify;
+}
+
+.principal {
+    
+    background-color:white;
+    color: black;
+    width: 100%;
+    padding-left: 20px;
+}
+.principal__title:hover {
+    border-left: 5px solid #782221 ;
+}
+
+footer {
+    margin: 20px;
+    color: white;
+    text-align: center;
 }
 
 footer > img {
@@ -67,10 +97,8 @@ footer > img {
     text-align: center;
     margin: 10px;
     padding: 10px;
+    opacity: 100;
 }
-footer {
-    margin: 20px;
-    color: white;
-    text-align: center;
+.Logo:hover {
+    opacity: 0.4;
 }
-
