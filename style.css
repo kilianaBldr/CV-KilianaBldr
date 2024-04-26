@@ -1,13 +1,13 @@
-/* police lato */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* police Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 body {
     background-color: #782221;
     border: solid 2px #2c1d27;
     width: 1160px;
     margin: auto;
+    font-family: "Raleway", sans-serif;
+}
+h1 ,h2 ,h3 {
+    font-family: "Lato", sans-serif;
 }
 header {
     text-align: center;
@@ -25,11 +25,8 @@ header {
 
 .Profil__image:hover {
     cursor: zoom-in;
+    text-decoration-line: none;
 }
-.Profil__image:active{
-    background-image: image-set();
-}
-
 a {
     text-align: center;
     color: white;
@@ -42,7 +39,6 @@ a:hover {
     display: flex;
     text-align: center;
     align-items: center;
-    padding: auto;
     justify-content: space-around;
     background-color:#2c1d27;
     height: 60px;
@@ -99,6 +95,6 @@ footer > img {
     padding: 10px;
     opacity: 100;
 }
-.Logo:hover {
+.Logo__images:hover {
     opacity: 0.4;
 }
